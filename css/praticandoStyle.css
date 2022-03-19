@@ -1,0 +1,80 @@
+body {
+	background-image: url(../img/bonito.jpg);
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	height: 45vh;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	width: 100%;
+}
+
+header img {
+	width: 570px ;
+	margin-top: 5vh;
+	
+}
+
+.links{
+	text-decoration: none;
+	color: white;
+	background: lightpink;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	height: 3vh;
+	}
+
+.links:hover{
+	background: white;
+	color: lightpink;
+}
+
+
+.Outro{
+	text-decoration: none;
+	color: white;
+	background: lightpink;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	height: 3vh;
+}
+.links:visited{
+	color: deeppink;
+}
+
+
+.Outro:hover{
+	background: white;
+	color: lightpink;
+}
+
+.menu-links {
+	display: flex;
+	gap: 10px;
+	
+}
+
+.imagens{
+	width: 50px;
+}
+
+footer{
+	bottom: 0;
+	min-width: 100%;
+}
+
+.description{
+	color: black;
+	display: inline-block;
+	min-width: 100%;
+	margin-left: 40px;
+}
+
